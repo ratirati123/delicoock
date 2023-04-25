@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html class="html">
+    <head class="head">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+
+            .html {
+                width: 100%;
+                height: 100%;
+                overflow-x: hidden;
+            }
+            .ramenkuy1 {
+                color: #FF4A22;
+            }
+            .ramenkuy2 {
+                color: #000000;
+            }
+            .row {
+                width: 100%;
+                margin: 0px;
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+            }
+            .content {
+                margin-top: 88px;
+                height: 443px;
+                display: flex;
+                width: 2127px;
+                align-items: center;
+            }
+            .delfoodrecipes {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 28px;
+            }
+            .text2 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 33px;
+                margin-top: 25px;
+                color: #12103DCC;
+            }
+            .TEXT {
+                width: 460px;
+                display: flex;
+                flex-direction: column;
+            }
+            .firstbtn {
+                padding: 7px;
+                color: #FF4A22; 
+                align-items: center;
+                justify-content: center; 
+                text-align: center;
+                border: solid; 
+                border-radius: 20px; 
+                border-width: 1px; 
+                display: flex;
+            }
+            .secondbtn {
+                padding: 7px;
+                color: #FF4A22; 
+                align-items: center;
+                justify-content: center; 
+                text-align: center;
+                border-radius: 20px; 
+                border-width: 1px; 
+                display: flex;
+            }
+            .btns {
+                display: flex;
+                gap: 22px;
+                width: 273px;
+                height: 41px;
+                margin-top: 32px;
+            }
+            .firstbtn {
+                padding: 10px 24px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border-radius: 20px;
+                border-width: 1px;
+                display: flex;
+                background-color: #FF4A22;
+                color: #FFFFFF;
+                font-weight: 500;
+            }
+            .secondbtn {
+                padding: 10px 24px;
+                color: #FF4A22;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border-radius: 20px;
+                border-width: 1px;
+                display: flex;
+                background-color: #FF4A2226;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+            }
+            .fembckground {
+                display: flex;
+                align-items: center;
+                padding: 6px 11px;
+                gap: 10px;
+                position: absolute;
+                width: 134px;
+                height: 52px;
+                left: 582px;
+                top: 63px;
+                background: #FFFFFF;
+                border: 0.5px solid rgba(154, 91, 66, 0.5);
+                box-shadow: 0px 15px 30px #e3e3e7cc;
+                border-radius: 25px;
+                top: 32%;
+                left: 60%;
+            }
+            .sembckground {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 6px;
+                gap: 10px;
+                position: absolute;
+                width: 58px;
+                height: 58px;
+                left: 49%;
+                top: 62%;
+                background: #FFFFFF;
+                border: 0.5px solid rgba(54, 52, 113, 0.5);
+                box-shadow: 0px 15px 30px rgba(224, 224, 236, 0.8);
+                border-radius: 25px;
+            }
+            .tembckground {
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 6px;
+                gap: 10px;
+                position: absolute;
+                width: 56px;
+                height: 56px;
+                left: 64.3%;
+                top: 94%;
+                background: #FFFFFF;
+                border: 0.5px solid rgba(154, 91, 66, 0.5);
+                box-shadow: 0px 15px 30px rgba(224, 224, 236, 0.8);
+                border-radius: 25px;
+                justify-content: center;
+            }
+            .sells {
+                position: absolute;
+                width: 124px;
+                height: 30px;
+                left: 88.6%;
+                top: 27%;
+                background: rgba(255, 255, 255, 0.9);
+                border-radius: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 7px;
+            }
+            .firstcake {
+                position: absolute;
+                left: 1140px;
+            }
+            .secondcake {
+                position: absolute;
+                left: 1323px;
+            }
+            .thirdcake {
+                position: absolute;
+                left: 1720px;
+            }
+            .text11 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .DOTS {
+                position: absolute;
+                width: 24px;
+                height: 18px;
+                left: 86%;
+                top: 94%;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: 0.08em;
+                color: #FFFFFF;
+            }
+            .dots {
+                display: flex;
+            }
+            .dot1
+            {
+                color: #FFFFFF;
+            }
+            .dot2 {
+                color: #FF4A22;
+            }
+            .dot3 {
+                color: #FFFFFF;
+            }
+            .text111 {
+                width: 211px;
+                height: 45px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 45px;
+                color: #000000;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+            .text222 {
+                position: absolute;
+                left: 93%;
+                display: flex;
+                align-items: center;
+                gap: 0px;
+            }
+            .view1 {
+                width: 64px;
+                height: 24px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FF4A22;
+                display: flex;
+                flex-direction: column;
+            }
+            .arrow {
+                display: flex;
+                height: 14px;
+            }
+            .secondcont {
+                top: 700px;
+                position: absolute;
+                width: 92%;
+                left: 111px;
+                align-items: center;
+                padding: 0px;
+            }
+            .pmenu {
+                display: flex;
+            }
+            .cards {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 24px;
+                width: 1218px;
+                height: 389px;
+                width: 100%;
+                margin-top: 42px;
+            }
+            .firstcard {
+                position: absolute;
+                left: 0px;
+                width: 30%;
+            }
+            .secondcard {
+                position: absolute;
+                left: 33%;
+                width: 30%;
+            }
+            .thirdcard {
+                position: absolute;
+                left: 66%;
+                width: 30%;
+            }
+            .checked {
+                color: orange;
+            }
+            .starrating {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                position: absolute;
+                top: 64%;
+                left: 8.5%;
+            }
+            .star1 {
+                display: flex;
+                align-items: center;
+            }
+            .star2 {
+                display: flex;
+                align-items: center;
+            }
+            .star3 {
+                display: flex;
+                align-items: center;
+            }
+            .star4 {
+                display: flex;
+                align-items: center;
+            }
+            .star5 {
+                display: flex;
+                align-items: center;
+            }
+            .cardtext {
+                position: absolute;
+    width: 100%;
+    height: 147px;
+    left: 0px;
+    top: 326px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(224, 224, 236, 0.8);
+    border-radius: 0px 0px 20px 20px;
+}
+.prices {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 50px;
+    justify-content: center;
+    display: flex;
+    padding-top: 5px;
+}
+.PRICE {
+    display: flex;
+    align-items: center;
+    left: 8%;
+    position: absolute;
+}
+.mainprice {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 33px;
+    color: #FF4A22;
+}
+.orders2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: rgba(51, 51, 51, 0.4);
+    padding-left: 25px;
+}
+.addcart {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 18px;
+gap: 10px;
+
+position: absolute;
+width: 116px;
+height: 42px;
+left: 70%;
+top: 59%;
+
+background: #FF4A22;
+box-shadow: 0px 4px 30px rgba(255, 74, 34, 0.18);
+border-radius: 22px;
+color: white;
+}
+.thirdcont {
+    position: absolute;
+    top: 1450px;
+    width: 100%;
+}
+.TEXT1111 {
+    position: absolute;
+width: 33%;
+left: 34%;
+top: 30%;
+height: 242px;
+background: rgba(51, 51, 51, 0.25);
+border-radius: 12px;
+}
+.maintext1111 {
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    padding: 36px 24px;
+}
+.maintext2222 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 30px;
+gap: 10px;
+text-align: center;
+color: white;
+position: absolute;
+width: 121px;
+height: 42px;
+left: 39%;
+top: 56%;
+background: #FF4A22;
+box-shadow: 0px 4px 30px rgba(255, 74, 34, 0.18);
+border-radius: 25px;
+}
+.forthcont {
+    position: absolute;
+    top: 2220px;
+    width: 89%;
+    left: 111px;
+}
+.trecipe {
+    display: flex;
+    align-items: center;
+}
+.TOPRECIPE {
+    height: 574px;
+    left: 0px;
+    top: 91px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(224, 224, 236, 0.8);
+    border-radius: 20px;
+    position: absolute;
+    width: 90%;
+    left: 0px;
+}
+.FIRSTIMAGE1 {
+    position: absolute;
+    height: 520px;
+    width: 30%;
+    left: 2.5%;
+    top: 9.5%;
+}
+.FIRSTIMAGE2 {
+    width: 8.5%;
+    position: absolute;
+    left: 34.5%;
+    top: 14%;
+}
+.FIRSTIMAGE3 {
+    width: 8.5%;
+    position: absolute;
+    left: 34.5%;
+    top: 35.5%;
+}
+.FIRSTIMAGE4 {
+    width: 8.5%;
+    position: absolute;
+    left: 34.5%;
+    top: 56.5%;
+}
+.FIRSTIMAGE5 {
+    width: 8.5%;
+    position: absolute;
+    left: 34.5%;
+    top: 77.5%;
+}
+.cdonut {
+    position: absolute;
+width: 442px;
+height: 42px;
+left: 48%;
+top: 15%;
+font-style: normal;
+font-weight: 500;
+font-size: 31px;
+line-height: 42px;
+color: #333333;
+}
+.donuttext1 {
+    position: absolute;
+width: 460px;
+height: 56px;
+left: 48%;
+top: 24%;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: rgba(51, 51, 51, 0.8);
+}
+.time1 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 5px;
+left: 47.2%;
+top: 38%;
+
+position: absolute;
+width: 154px;
+height: 28px;
+}
+.time2 {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 154px;
+height: 28px;
+left: 60%;
+top: 38%;
+}
+.donuttext2 {
+    position: absolute;
+width: 529px;
+height: 210px;
+left: 48%;
+top: 46%;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+color: rgba(51, 51, 51, 0.8);
+}
+.profilepic1 {
+    width: 2.2%;
+    left: 48.5%;
+    position: absolute;
+    top: 88%;
+}
+.profilepic2 {
+    width: 2.2%;
+    left: 49.8%;
+    position: absolute;
+    top: 88%;
+}
+.profilepic3 {
+    width: 2.2%;
+    left: 51%;
+    position: absolute;
+    top: 88%;
+}
+.profilepic4 {
+    width: 2.2%;
+    left: 52.3%;
+    position: absolute;
+    top: 88%;
+}
+.COMMENTS {
+    position: absolute;
+width: 92px;
+height: 30px;
+left: 67%;
+top: 88.5%;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+color: #333333;
+}
+.typecomment {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 55%;
+position: absolute;
+width: 22%;
+height: 39px;
+left: 67%;
+top: 88%;
+
+background: #FFFFFF;
+border: 0.5px solid #FF4A22;
+border-radius: 30px;
+}
+.TEXTT11 {
+    padding-left: 5%;
+}
+.ARROWS1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    color: white;
+    font-weight: 600;
+width: 52px;
+height: 52px;
+left: 4%;
+top: 53%;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.4);
+}
+.ARROWS2 {
+    position: absolute;
+    font-size: 33px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+width: 52px;
+height: 52px;
+left: 428px;
+top: 53%;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.4);
+}
+.end {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 59px 120px;
+gap: 180px;
+
+position: absolute;
+width: 100%;
+height: 276px;
+left: 0px;
+top: 3020px;
+
+background: #FF4A22;
+}
+.delteXT55 {
+    color: white;
+} 
+.deltext11 {
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+padding-bottom: 12px;
+color: #FFFFFF;
+}
+.delteXT11 {
+    padding-bottom: 30px;
+height: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.DELTEXT12 {
+    width: 76px;
+height: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.deltext22 {
+    height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+width: 105px;
+}
+.deltext33 {
+height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.deltext44 {
+height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.deltext55 {
+height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.termsofservice {
+height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.delteXT22 {
+height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.delteXT33 {
+height: 18px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.delteXT44 {
+height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+.delteXT111 {
+    width: 108px;
+height: 18px;
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+}
+.DELTEXT12 {
+    width: 81px;
+height: 18px;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.DELTEXT13 {
+    width: 108px;
+height: 18px;
+display: flex;
+gap: 15px;
+padding-top: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.DELTEXT14 {
+    width: 108px;
+height: 18px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+padding-top: 60px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.delTEXT111 {
+    color: white;
+}
+.lastdiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+.lastdiv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 142px;
+    gap: 4px;
+}
+.lastdiv3 {
+    top: 69px;
+    position: absolute;
+    left: 1130px;
+}
+.DELICOOK {
+    width: 153px;
+height: 42px;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.delicooktext1 {
+    width: 326px;
+height: 56px;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+color: white;
+}
+        </style>
+    </head>
+    <body class="body">
+        <div class="container" style="padding: 0; width: 90%; margin: 0px; left: 111px; position: absolute; display: flex; flex-direction: column;">
+            <div class="row">
+                <div class="col-sm-6" style="padding: 0; display: flex; font-weight: 600; font-size: 20px;"><p class="ramenkuy1">Ramen</p><p class="ramenkuy2">.kuy</p></div>
+                <div class="col-sm-1" style="padding: 0; color: #FF4A22; justify-content: center; display: flex;"> Home</div>
+                <div class="col-sm-1" style="padding: 0; justify-content: center; display: flex;"> How to order</div>
+                <div class="col-sm-1" style="padding: 0; justify-content: center; display: flex;">Our Menu</div>
+                <div class="col-sm-1" style="padding: 0; justify-content: center; display: flex;">Our Recipes</div>
+                <div class="col-sm-1" style="padding: 0; justify-content: center; display: flex;"> Contact Us</div>
+                <div class="col-sm-1" style="padding: 7px; color: #FF4A22; align-items: center; justify-content: center; text-align: center; border: solid; border-radius: 20px; border-width: 1px; display: flex;"> Subscribe </div>
+            </div>
+            
+            <div class="content">
+                <div class="TEXT">
+                   
+                        <div class="delfoodrecipes">
+                            <div class="text1">Delicious Food &</div> <br> <div>Recipes For Your Family</div>
+                        </div>
+                            <div class="text2">Id cursus metus aliquam eleifend mi in nulla posuere. Lorem faucibus vitae aliquet nec ullamcorper sit.</div>
+                            <div class="btns">
+                                <div class="firstbtn">Order now</div>
+                                <div class="secondbtn">Join reseller</div>
+                            </div>
+                </div>
+                            <div class="firstcake"><img src="Rectangle 5.jpg"></div>
+                            <div class="secondcake"><img src="Pexels Photo by JJ Jordan.jpg"></div>
+                            <div class="thirdcake"><img src="Pexels Photo by JJ Jordan (1).jpg"></div>
+                            <div class="fembckground">
+                                <div class="firstemoji"><img src="Bitmap.jpg"></div>
+                                <div class="text11">Delicious</div>
+                            </div>
+                            <div class="sembckground">
+                                <div class="secondemoji"><img src="Bitmap2.jpg"></div>
+                            </div>
+                            <div class="tembckground">
+                                <div class="thirdemoji"><img src="Bitmap3.jpg"></div>
+                            </div>
+                            <div class="sells">
+                                <div class="sellogo"><img src="Vector.jpg"></div>
+                                <div class="orders1">1290 ordered</div>
+                            </div>
+                            <div class="DOTS">
+                                <div class="dots">
+                                    <div class="dot1">.</div>
+                                    <div class="dot2">.</div>
+                                    <div class="dot3">.</div>
+                                </div>
+                            </div>
+            </div>
+        
+        </div>
+        <div class="secondcont">
+            <div class="pmenu">
+                <div class="text111">Popular Menu</div>
+                <div class="text222">
+                    <div class="view1">View all</div>
+                    <div class="arrow"><img src="arrow.jpg"></div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="firstcard">
+                    <img src="cake1.jpg" style="width: 100%;">
+                <div class="cardtext">
+                    <div class="prices">Tiramisu Cake width Strawberry Sauce</div>
+                    <div class="PRICE">
+                        <div class="mainprice">$12.00</div>
+                        <div class="orders">1035 ordered</div>
+                    </div>
+                    <div class="starrating">
+                        <div class="rating">4.5</div>
+                        <div class="star1"><img src="Star 3.jpg"></div>
+                        <div class="star2"><img src="Star 3.jpg"></div>
+                        <div class="star3"><img src="Star 3.jpg"></div>
+                        <div class="star4"><img src="Star 3.jpg"></div>
+                        <div class="star5"><img src="Star 5.jpg"></div>
+                    </div>
+                    <div class="addcart">Add to cart</div>
+                </div>
+
+                </div>
+                <div class="secondcard">
+                    <img src="cake2.png" style="width: 100%;">
+                    <div class="cardtext">
+                        <div class="prices">Tiramisu Cake width Strawberry Sauce</div>
+                        <div class="PRICE">
+                            <div class="mainprice">$12.00</div>
+                            <div class="orders">1035 ordered</div>
+                        </div>
+                        <div class="starrating">
+                            <div class="rating">4.5</div>
+                            <div class="star1"><img src="Star 3.jpg"></div>
+                            <div class="star2"><img src="Star 3.jpg"></div>
+                            <div class="star3"><img src="Star 3.jpg"></div>
+                            <div class="star4"><img src="Star 3.jpg"></div>
+                            <div class="star5"><img src="Star 5.jpg"></div>
+                        </div>
+                        <div class="addcart">Add to cart</div>
+                    </div>
+                </div>
+                <div class="thirdcard">
+                    <img src="cake3.jpg" style="width: 100%;">
+                    <div class="cardtext">
+                        <div class="prices">Tiramisu Cake width Strawberry Sauce</div>
+                        <div class="PRICE">
+                            <div class="mainprice">$12.00</div>
+                            <div class="orders2">1035 ordered</div>
+                        </div>
+                        <div class="starrating">
+                            <div class="rating">4.5</div>
+                            <div class="star1"><img src="Star 3.jpg"></div>
+                            <div class="star2"><img src="Star 3.jpg"></div>
+                            <div class="star3"><img src="Star 3.jpg"></div>
+                            <div class="star4"><img src="Star 3.jpg"></div>
+                            <div class="star5"><img src="Star 5.jpg"></div>
+                        </div>
+                        <div class="addcart">Add to cart</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thirdcont">
+            <img src="Rectangle 15.jpg" style="width: 100%;">
+            <div class="TEXT1111">
+                <div class="maintext1111">Id cursus metus aliquam eleifend mi in nulla posuere. Lorem faucibus vitae aliquet nec ullamcorper sit.</div>
+                <div class="maintext2222">Subscribe</div>
+            </div>
+        </div>
+        <div class="forthcont">
+            <div class="trecipe">
+                <div class="text111">Top Recipe</div>
+                <div class="text222">
+                    <div class="view1">View all</div>
+                    <div class="arrow"><img src="arrow.jpg"></div>
+                </div>
+            </div>
+            <div class="TOPRECIPE">
+                <div class="FIRSTIMAGE1"><img src="Rectangle 9.jpg" style="width: 99.5%;"></div>
+                <div class="FIRSTIMAGE2"><img src="Rectangle 11.jpg" style="width: 99.5%;"></div>
+                <div class="FIRSTIMAGE3"><img src="Rectangle 12.jpg" style="width: 99.5%;"></div>
+                <div class="FIRSTIMAGE4"><img src="Rectangle 13.jpg" style="width: 99.5%;"></div>
+                <div class="FIRSTIMAGE5"><img src="Rectangle 14.jpg" style="width: 99.5%;"></div>
+                <div class="cdonut">Home Made Chocolate Donut</div>
+                <div class="donuttext1">Id cursus metus aliquam eleifend mi in nulla posuere. Lorem faucibus vitae aliquet nec ullamcorper sit.</div>
+                <div class="time1">
+                    <div class="camera1"><img src="camera.jpg"></div>
+                    <div class="date">August, 25, 2003</div>
+                </div>
+                <div class="time2">
+                    <div class="camera1"><img src="clock.jpg"></div>
+                    <div class="date">15 minutes cook</div>
+                </div>
+                <div class="donuttext2">
+                    Adipiscing at in tellus integer. Pellentesque massa placerat duis ultricies lacus. Nisi porta lorem mollis aliquam ut porttitor leo.
+                    
+                    <ol class="numbers">
+                    <li>Venenatis cras sed felis eget.</li>
+                    <li>Duis ultricies lacus sed turpis tincidunt.</li>
+                    <li>Interdum varius sit amet mattis.</li>
+                    <li>Libero justo laoreet sit amet cursus sit amet dictum sit.</li>
+                    <li>Pellentesque massa placerat duis</li> 
+                </div>
+                <div class="pfps">
+                    <div class="profilepic1"><img src="Ellipse 1.jpg" style="border-radius: 50%;"></div>
+                    <div class="profilepic2"><img src="Ellipse 2.jpg" style="border-radius: 50%;"></div>
+                    <div class="profilepic3"><img src="Ellipse 3.jpg" style="border-radius: 50%;"></div>
+                    <div class="profilepic4"><img src="Ellipse 4.jpg" style="border-radius: 50%;"></div>
+                </div>
+                <div class="COMMENTS">1.2K+ comment</div>
+                <div class="typecomment">
+                    <div class="TEXTT11">Type comment</div>
+                    <div class="sentimage"><img src="sent.jpg"></div>
+
+                </div>
+                <div class="ARROWS1"><</div>
+                <div class="ARROWS2">></div>
+            </div>
+        </div>
+          <div class="end">
+            <div class="maindelicook">
+            <div class="DELICOOK">DeliCook</div>
+            <div class="delicooktext1">Id cursus metus aliquam eleifend mi in nulla posuere. Lorem faucibus vitae aliquet</div>
+            </div>
+            <div class="lastdiv1">
+                <div class="deltext11">About Us</div>
+                <div class="deltext22">About DeliCook</div>
+                <div class="deltext33">Partnerships</div>
+                <div class="deltext44">Customer</div>
+                <div class="deltext55">Privacy Policy</div>
+                <div class="termsofservice">Terms of Service</div>
+            </div>
+            <div class="lastdiv2" style="display: flex; flex-direction: column; align-items: flex-start; height: 138px; gap: 4px;">
+                <div class="delteXT11" style="padding-bottom: 28px;">Services</div>
+                <div class="delteXT22">Menu</div>
+                <div class="delteXT33">Recipe</div>
+                <div class="delteXT44">Delivery</div>
+                <div class="delteXT55">Reseller</div>
+                <div class="delTEXT111">Course</div>
+            </div><div class="lastdiv3">
+                <div class="DELTEXT12">Contact Us</div>
+                <div class="DELTEXT13">
+                    <div class="linkedin"><img src="LinkedIn.png"></div>
+                    <div class="linkedin"><img src="Twitter Squared.png"></div>
+                    <div class="linkedin"><img src="Instagram.png"></div>
+                    <div class="linkedin"><img src="Facebook.png"></div>
+                </div>
+                <div class="DELTEXT14">2022 ©delicook.com All right reserved.</div>
+            </div>
+            </div>
+        
+    </body>
+</html>
